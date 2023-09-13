@@ -13,7 +13,7 @@
     "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://github.com/shipengineer/cv.github.io.git"
+  "homepage": "https://github.com/shipengineer/cv.github.io.git",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",

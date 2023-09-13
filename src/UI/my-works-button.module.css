@@ -4,7 +4,7 @@
   background-image: url('../assets/img/my-work-dekor.png');
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position: 0 2rem;
+  background-position: center 1.7rem;
   text-decoration: none;
   color: black;
   font-family: 'Roboto Mono', monospace;
@@ -14,4 +14,9 @@
   padding-top: 5px;
   padding-left: 15px;
   width: 100px;
+}
+.button-my-works:hover {
+  color: rgb(44, 130, 234);
+  background-position: center 2rem;
+  transition: all ease 1s;
 }

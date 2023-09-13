@@ -13,7 +13,7 @@ const MyWorks = () => {
   return (
     <Layout substrate={`url(${subs})`}>
       <div className={styles.background}>
-        <p style={{ fontSize: 'large' }}>
+        <p style={{ fontSize: 'large', marginLeft: '15px' }}>
           I'm in decoration process, but you can find some of my work here:
         </p>
 
@@ -45,7 +45,6 @@ const MyWorks = () => {
         <div className={styles['buttons-div-wrapper']}>
           <div className={styles['buttons-div']}>
             <BackButton />
-            <AboutMeButton />
           </div>
         </div>
       </div>

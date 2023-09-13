@@ -1,8 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .background {
   width: 375px;
-  min-height: 1688px;
+  min-height: 1650px;
   background-image: url('../assets/img/my-work-bg.png');
-  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
 }
 a {
   margin-left: 10px;

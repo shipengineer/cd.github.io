@@ -8,7 +8,7 @@ const Layout = (props) => {
       className={`${styles.substrate} ${props.className}`}
     >
       <Warp />
-      {props.children}
+      <div>{props.children}</div>
     </div>
   );
 };
